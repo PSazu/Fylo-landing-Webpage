@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+img {
+   width: 100%;
+    
+}
+.header-container {
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center ;
+    display: flex;
+  
+}
+nav {
+   width: 300px;
+    position: relative;
+}       
+.logo-container {
+ width: 100px;
+ height: 80px;
+ margin-top: 40px;  
+ 
+}   
+.nav-links {
+    display: flex;
+    list-style: none;
+    color: black; 
+    
+}
+img {
+   width: 100%;
+}
+.nav-link {
+    list-style: none;
+    padding-left: 20px
+    
+}
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+	font-size: 1em;
+	color: black;
+}
+a:hover {
+    color:rgba(165, 161, 161, 0.589);
+}
+header {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 20px auto;
+    font-family: 'Raleway', sans-serif;
+}
+#firstsec {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin: auto;
+    margin-top: 50px;
+    align-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+.Fgrid-item h1 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.Fgrid-item p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#border {
+    width: 250px;
+    height: 35px;
+    margin-right: 10px;
+}
+.button-enter {
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color:  hsl(224, 93%, 58%);
+    border-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+::placeholder{
+    padding-left: 20px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+ }
+ .button-enter:hover {
+     background-color:  hsl(238, 22%, 44%);
+     cursor: pointer;
+ }
+ #Secondsec{ 
+     display: grid;
+     grid-template-columns: 50% 40%;
+     margin: auto;
+     margin-top: 100px;
+     align-items: center;
+     margin-left: 60px;
+     padding-top: 5%;
+   /* background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;   */
+ }
+ .Fgrid-item2 h1{
+    font-size: 35px;
+    line-height: 50px; 
+ }
+ .Fgrid-item p {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+ }
+ .box {
+     width: 60%;
+     height: 150px;
+     margin-top: 30px;  
+     border-radius: 5px;
+     text-align: left;
+     align-items: flex-start;
+     box-shadow: 5px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);;
+ }
+ .box p {
+     font-weight: 600;
+     font-size: 13px;
+     margin-left: 10px;
+     margin-top: 5px
+ }
+ .Double-box{
+    width: 20px;
+    height: 20px; 
+ }
+ .lower {
+     display: flex;
+ }
+ .lower p {
+     font-size: 13px;
+     padding-top: 10px;
+     padding-left: 10px;
+ }
+ .profile{
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     margin-left: 5px;
+ }
+ .arrow-div {
+     display: flex;
+ }
+ .arrow {
+     padding-left: 3px;
+     width: 13px;
+     height: 13px;
+ }
+ .Fgrid-item2 a {
+     text-decoration: underline;
+     color: hsl(170, 45%, 43%);
+     text-decoration-color: hsl(170, 45%, 43%);
+ }
+ .Background-imP2 {
+     padding-top: 100px;
+     padding-left: 100px;    
+ }
+ .ThirdSection {
+     display: grid;
+     grid-template-columns: 30% 60%; 
+     margin-top: 100px;
+     align-items: center;
+     background-color:hsl(238, 22%, 44%);
+    
+ }
+ .section1 {
+     color: white;
+     height: 35vh;
+     align-items: center;
+ }
+ .ThirdSection h1{
+     font-size: 25px;
+     text-align: left;
+     padding-top: 60px;
+     padding-left: 50px;
+ }
+ .ThirdSection p{
+     text-align: left;
+     padding-left: 50px;
+     font-size: 14px;
+ }
+
+ .section2{
+     margin-left: 150px;
+ }
+ #border1 {
+    width: 400px;
+    height: 35px;
+ }
+ .button-start {
+     margin-top: 10px;
+     width: 180px;
+     height: 40px;  
+     color: white;
+     background-color:  hsl(224, 93%, 58%);
+     border-style: none;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 600;
+     font-size: 12px;
+     cursor: pointer;
+     border-radius: 2px;
+ }
+ #Grid-Container {
+     display: grid;
+     height: 40vh;
+     grid-template-columns: 25% 1fr 1fr 1fr;
+     background-color:   hsl(243, 87%, 12%);
+     margin: auto;
+     align-items: center;
+ }
+ .GridColumn1 {
+    
+     margin-left: 50px;
+ }
+ .footer-logo{
+     width: 170px;
+ }
+ .phone-class {
+     display: flex;
+ }
+ .phone-class .text-edit {
+     margin-top: 15px;
+     margin-left: 10px;
+     color: white;
+     font-size: 13px    ;
+ }
+ .phone {
+     width: 20px;
+     margin-top: 15px;
+    
+ }
+ .mail-class {
+     display: flex;
+ }
+ .mail-class .text-edit{
+    margin-top: 9px;
+    margin-left: 10px;
+    color: white;
+    font-size: 13px;
+
+ }
+ .mail {
+     margin-top: 10px;
+     width: 20px;
+ }
+ .GridColumn2 {
+     margin-left: 100px; 
+ }
+ .GridColumn3 {
+     margin-left: 100px;
+ }
+ .GridColumn2 .list-container {
+     color: white;
+     list-style: none;
+     font-size: 13px;
+ }
+ .list-container {
+     margin-top: 100px;
+ }
+ .list-container li {
+    padding-bottom: 10px;
+ }
+ .GridColumn3 .list-container {
+     list-style: none;
+     color: white;
+     font-size: 13px;
+ }
+ .list-container a{
+     color: white;
+     text-decoration: none;
+ }
+ .list-container a:hover{
+    color:rgba(165, 161, 161, 0.589);
+ }
+ .svg-container {
+    padding: 45% 5% 25%;
+    line-height: 2rem;
+    display: flex;
+ }
+
+
+ 
+ @media (max-width: 950px) {
+    #firstsec {
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+      align-items: center;
+    }
+    .border {
+        width: 30%;
+    }
+    .button-enter {
+        width: 20%;    
+    }
+    img {
+        width: 70%;
+    }
+
+    #Secondsec{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: left;
+        align-items: center;
+    }
+    .ThirdSection {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section2 {
+       margin: auto;
+       margin-bottom: 50px;
+    }
+    #border1 {
+        margin-right: 350px;
+       
+    }
+   
+
+ @media (max-width: 600px) {
+    #firstsec {
+        margin: auto;
+    } 
+    .Fgrid-item {
+        margin-top: 20px;
+    }
+    .Fgrid-item h1 {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 40px;
+     }
+     .Fgrid-item p {
+         font-weight: 500;
+         font-size:13px;
+
+     }
+     .logo-container {
+         margin-top: 55px;
+     }
+     .Background-image {
+         margin-top: 50px;
+     }
+     #Secondsec {
+         margin: auto;
+     }
+    .Fgrid-item2 h1 {
+        font-size: 18px;
+       font-weight: 700;
+       text-align: center;
+    }
+    .Fgrid-item2 p {
+        font-size: 13px;
+        margin-left: 20px; 
+        margin-right: 20px;
+        
+    }
+    .arrow-div {
+       justify-content: center;
+    }
+    .box {
+        justify-content: center;
+        margin-left: 100px;
+    }
+    .box {
+        height: 185px;
+    }
+    .section1{
+        width: 75%;
+        margin: auto;
+    }
+    .section2{
+        margin:auto;
+        width: 50%;
+    }
+    #border1 {
+        width: 100%;
+       
+
+    }
+    .button-start{
+        width: 100%;
+        margin-bottom: 50px;
+
+    }
+    .ThirdSection h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    .ThirdSection p {
+        text-align: center;
+    }
+    #Grid-Container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 60vh;
+    }
+    .GridColumn1{
+        margin-top: 50px;
+    }
+    .GridColumn2 {
+       
+        position: relative;
+        right: 50px;
+    }
+    .GridColumn2 .list-container {
+        margin: 0px;
+        margin-top: 20px;
+
+    }   
+    .GridColumn3 .list-container {
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .GridColumn3{
+       
+        position: relative;
+        right: 50px;
+    }
+    /*
+    #Grid-Container{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        align-items: flex-start;
+    }
+    .GridColumn1{
+       margin-top: 100px;
+    }
+    .GridColumn2{
+        height: 150px;
+        background-color: khaki;
+    }
+    .list-container{
+        margin-bottom: 300px;
+    }
+    }
+    .GridColumn3{
+        margin: 0;
+        width: 100px;
+    }
+    .GridColumn4{
+        width: 100px
+    }
+    */
+}
+ }
+
+ 
+   
